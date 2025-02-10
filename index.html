@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <title>University Rating System</title>
+</head>
+<body>
+    
+    <div class="header-container">
+        <a href="./index.html"><img src="assets/logo.png" alt="logo" class="logo"></a>
+        <div class="header-right">
+            <a class="hover" href="./index.html">Home</a>
+            <a class="hover" href="./about.html">About</a>
+        </div>
+
+    </div>    
+
+    <div class="slideshow-container">
+        <div class="slide">
+            <img src="assets/uniwa-egaleo.jpg" alt="slide1">
+            <div class="slide-content">
+                <h2>Rate a university!</h2>
+                <p>This website allows you to rate any university you want and get the final results of is rate of the year.</p>
+            </div>   
+        </div>
+        <div class="slide">
+            <img src="assets/uniwa-2.jpg" alt="slide2">
+            <div class="slide-content">
+                <h2>Compare results!</h2>
+                <p>Compare results from previous years.</p>
+            </div>   
+        </div>
+    </div>
+
+    <div class="mainbody">
+        <h1 class="welcome">Welcome!</h1>
+        <p class="intro">Welcome to University Rating System based on SDGs. Here, you can rate any university you want and get the final
+            results of is rate of the year. This service can also help you compare the results based on previous years, specifically the reference year of 2022.
+            Those comparisons will help you understand in which SDGs should your university improve or in which SDGs your university has deteriorated. If you need more help with the service, please check the About page, where you will find more info about the project and the service and about the creator of this site.</p>
+        <p class="intro">To start, please press the following button!</p>    
+        <div class="buttons">
+
+            <a href="./rate.html" class="button">Rate a university</a>
+
+        </div>
+    </div>
+    
+
+    <div class="footer-container">
+
+        <footer>
+            <p class="copyright">Copyright: Konstantinos Georgiou @ Uniwa 2024-2025</p> 
+        </footer>
+
+    </div>
+
+    <script>
+        $(document).ready(function(){
+          $('.slideshow-container').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+          });
+        });
+      </script>
+    
+</body>
+</html>

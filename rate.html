@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <title>Rate a University</title>
+</head>
+<body>
+
+    <div class="header-container">
+        <a href="./index.html"><img src="assets/logo.png" alt="logo" class="logo"></a>
+        <div class="header-right">
+            <a class="hover" href="./index.html">Home</a>
+            <a class="hover" href="./about.html">About</a>
+        </div>
+
+    </div>
+    
+    <div class="ratebody">
+
+        <p class="rate_text">Please enter the name of the University:</p>
+        <input type="text" id="input_name"></br>
+        </br>
+
+
+
+
+        <div class="SDG01">
+
+            <p class="rate_text">Please select values for SDG01:</p>
+            <p class="rate_text">I1:</p>
+
+            <select class="dropdown" id="dropdown_i1_1">
+                <option value="0">0</option>
+                <option value="0.25">0.25</option>
+                <option value="1">1</option>
+            </select>
+
+            <select class="dropdown" id="dropdown_i1_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+
+            <select class="dropdown" id="dropdown_i1_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            
+            <p class="rate_text">I2:</p>
+            <select class="dropdown" id="dropdown_i2_1">
+                <option value="0">0</option>
+                <option value="0.25">0.25</option>
+                <option value="1">1</option>
+            </select>
+
+            <select class="dropdown" id="dropdown_i2_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+
+            <select class="dropdown" id="dropdown_i2_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+
+        </br>
+        </br>
+
+        <div class="SDG02">
+            <p class="rate_text">Please select values for SDG02:</p>
+            <p class="rate_text">I3:</p>
+            <label for="input_i3_1" class="input_label">Please enter a value for kilos:</label>
+            <input type="number" id="input_i3_1"><br><br>
+            <label for="input_i3_2" class="input_label">Please enter a value for population:</label>
+            <input type="number" id="input_i3_2"><br>
+            <p class="rate_text">I4:</p>
+            <select class="dropdown" id="dropdown_i4_1">
+                <option value="0">0</option>
+                <option value="0.25">0.25</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i4_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i4_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+
+        </br>
+        </br>
+
+        <div class="SDG03">
+            <p class="rate_text">Please select values for SDG03:</p>
+            <p class="rate_text">I5:</p>
+            <select class="dropdown" id="dropdown_i5_1">
+                <option value="0">0</option>
+                <option value="0.25">0.25</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i5_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i5_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I6:</p>
+            <select class="dropdown" id="dropdown_i6_1">
+                <option value="0">0</option>
+                <option value="0.25">0.25</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i6_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i6_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        </br>
+        </br>
+        <div class="SDG04">
+            <p class="rate_text">Please select values for SDG04:</p>
+            <p class="rate_text">I7:</p>
+            <select class="dropdown" id="dropdown_i7_1">
+                <option value="0">0</option>
+                <option value="0.25">0.25</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i7_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i7_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I8:</p>
+            <label for="input_i8_1" class="input_label">Please enter a value for new students:</label>
+            <input type="number" id="input_i8_1"><br><br>
+            <label for="input_i8_2" class="input_label">Please enter a value for graduating students:</label>
+            <input type="number" id="input_i8_2"><br>
+        </div>
+        </br>
+        </br>
+        <div class="SDG05">
+            <p class="rate_text">Please select values for SDG05:</p>
+            <p class="rate_text">I9:</p>
+            <label for="input_i9_1" class="input_label">Please enter a value for female senior academic staff:</label>
+            <input type="number" id="input_i9_1"><br><br>
+            <label for="input_i9_2" class="input_label">Please enter a value for senior academic staff:</label>
+            <input type="number" id="input_i9_2"><br>
+            <p class="rate_text">I10:</p>
+            <select class="dropdown" id="dropdown_i10_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i10_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i10_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I11:</p>
+            <select class="dropdown" id="dropdown_i11_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i11_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i11_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I12:</p>
+            <select class="dropdown" id="dropdown_i12_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i12_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i12_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        </br>
+        </br>
+
+        <div class="SDG06">
+            <p class="rate_text">Please select values for SDG06:</p>
+            <p class="rate_text">I13:</p>
+            <label for="input_i13_1" class="input_label">Please enter a value for water in cubic metres:</label>
+            <input type="number" id="input_i13_1"><br><br>
+            <label for="input_i13_2" class="input_label">Please enter a value for university population:</label>
+            <input type="number" id="input_i13_2"><br>
+            <p class="rate_text">I14:</p>
+            <select class="dropdown" id="dropdown_i14_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i14_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i14_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        </br>
+        </br>
+
+        <div class="SDG07">
+            <p class="rate_text">Please select values for SDG07:</p>
+            <p class="rate_text">I15:</p>
+            <select class="dropdown" id="dropdown_i15_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i15_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i15_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I16:</p>
+            <select class="dropdown" id="dropdown_i16_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i16_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i16_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I17:</p>
+            <label for="input_i17_1" class="input_label">Please enter a value for energy used in Gigajoules(GJ):</label>
+            <input type="number" id="input_i17_1"><br><br>
+            <label for="input_i17_2" class="input_label">Please enter a value for floor space of university buildings in square metres(m2):</label>
+            <input type="number" id="input_i17_2"><br>
+        </div>        
+        </br>
+        </br>
+
+        <div class="SDG09">
+            <p class="rate_text">Please select values for SDG09:</p>
+            <p class="rate_text">I18:</p>
+            <label for="input_i18_1" class="input_label">Please enter a value for Research Income:</label>
+            <input type="number" id="input_i18_1"><br><br>
+            <label for="input_i18_2" class="input_label">Please enter a value for Academic staff:</label>
+            <input type="number" id="input_i18_2"><br>
+        </div>
+        </br>
+        </br>
+
+        <div class="SDG10">
+            <p class="rate_text">Please select values for SDG10:</p>
+            <p class="rate_text">I19:</p>
+            <select class="dropdown" id="dropdown_i19_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i19_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i19_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        </br>
+        </br>
+    
+        <div class="SDG11">
+            <p class="rate_text">Please select values for SDG11:</p>
+            <p class="rate_text">I20:</p>
+            <select class="dropdown" id="dropdown_i20_1">
+                <option value="0">0</option>
+                <option value="0.25">0.25</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i20_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i20_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I21:</p>
+            <select class="dropdown" id="dropdown_i21_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i21_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i21_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div class="SDG12">
+            <p class="rate_text">Please select values for SDG12:</p>
+            <p class="rate_text">I22:</p>
+            <select class="dropdown" id="dropdown_i22_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i22_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i22_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I23:</p>
+            <select class="dropdown" id="dropdown_i23_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i23_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i23_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I24:</p>
+            <label for="input_i24_1" class="input_label">Please enter a value for Waste Recycled:</label>
+            <input type="number" id="input_i24_1"><br><br>
+            <label for="input_i24_2" class="input_label">Please enter a value for Waste Generated:</label>
+            <input type="number" id="input_i24_2"><br>
+
+        </div>
+
+        </br>
+        </br>
+
+        <div class="SDG13">
+            <p class="rate_text">Please select values for SDG13:</p>
+            <p class="rate_text">I25:</p>
+            <label for="input_i25_1" class="input_label">Please enter a value for I25:</label>
+            <input type="number" id="input_i25_1"><br>
+            <p class="rate_text">I26:</p>
+            <select class="dropdown" id="dropdown_i26_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i26_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i26_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        </br>
+        </br>
+    
+        <div class="SDG14">
+            <p class="rate_text">Please select values for SDG14:</p>
+            <p class="rate_text">I27:</p>
+            <select class="dropdown" id="dropdown_i27_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i27_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i27_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+        <div class="SDG15">
+            <p class="rate_text">Please select values for SDG15:</p>
+            <p class="rate_text">I28:</p>
+            <select class="dropdown" id="dropdown_i28_1">
+                <option value="0">0</option>
+                 <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i28_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i28_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+
+        </br>
+        </br>
+
+        <div class="SDG16">
+            <p class="rate_text">Please select values for SDG16:</p>
+            <p class="rate_text">I29:</p>
+            <select class="dropdown" id="dropdown_i29_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i29_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i29_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+
+        </br>
+        </br>
+        <div class="SDG17">
+            <p class="rate_text">Please select values for SDG16:</p>
+            <p class="rate_text">I30:</p>
+            <label for="input_i30_1" class="input_label">Please enter a value for Publications:</label>
+            <input type="number" id="input_i30_1"><br><br>
+            <label for="input_i30_2" class="input_label">Please enter a value for Academic Staff:</label>
+            <input type="number" id="input_i30_2"><br>
+            <p class="rate_text">I31:</p>
+            <select class="dropdown" id="dropdown_i31_1">
+                <option value="0">0</option>
+                <option value="0.25">0.25</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i31_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i31_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I32:</p>
+            <select class="dropdown" id="dropdown_i32_1">
+                <option value="0">0</option>
+                <option value="0.25">0.25</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i32_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i32_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I33:</p>
+            <select class="dropdown" id="dropdown_i33_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i33_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <p class="rate_text">I34:</p>
+            <select class="dropdown" id="dropdown_i34_1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i34_2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+            <select class="dropdown" id="dropdown_i34_3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+
+
+
+    </div> <!--ratebody tag-->
+    <button id = "button" >Calculate</button>
+    <script src="scripts.js"></script>    
+
+    <div class="footer-container">
+
+        <footer>
+            <p class="copyright">Copyright: Konstantinos Georgiou @ Uniwa 2024-2025</p> 
+        </footer>
+
+    </div>
+    
+</body>
+</html>
